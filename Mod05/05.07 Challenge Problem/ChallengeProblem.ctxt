@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ printBanner()
+comment1.params=passwordLength
+comment1.target=void\ generateLowerCasePassword(int)
+comment2.params=passwordLength
+comment2.target=void\ generateLowerNumberPassword(int)
+comment3.params=passwordLength
+comment3.target=void\ generateLowerUpperNumber(int)
+comment4.params=passwordLength
+comment4.target=void\ generateLowerUpperPunctuationNumbers(int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
