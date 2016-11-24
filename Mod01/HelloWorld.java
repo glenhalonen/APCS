@@ -8,7 +8,7 @@ public class HelloWorld
    public static void main(String[] args)
    {
        
-       int x = 10.0/3;
+       double x = 10.0/3;
        
        
        

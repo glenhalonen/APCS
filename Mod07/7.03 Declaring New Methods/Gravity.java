@@ -8,6 +8,7 @@
 import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Gravity
 {
@@ -16,14 +17,14 @@ public class Gravity
     public static double[] calcGravity(double[] radius, double[] mass)
     {
         // fill in code here
-        double[] gravity = new double[radius.length];
+        double[] gravities = new double[radius.length];
         // The formula to calculate gravity is: GM/r2 6.67 x 10^-11
         for(int i = 0; i < radius.length; i++)
         {
-            gravity[i] = ((6.67 * Math.pow(10, -11)) * mass[i]) / Math.pow(radius[i], 2);
+            gravities[i] = ((6.67 * Math.pow(10, -17)) * mass[i]) / Math.pow(radius[i], 2);
         }
         // 6.67E-11 times the massOfPlanet divided by the radius of the planet squared
-        return gravity;
+        return gravities;
     }
 
     // printResults will print the table to output screen
@@ -33,19 +34,24 @@ public class Gravity
         // fill in code here
         System.out.println("                      Planetary Data");
         System.out.println();
-        System.out.println("  Planet     Radius(km)   Mass(kg)      Gravity(m/s^2)");
+        System.out.println("  Planet     Radius(km)      Mass(kg)      Gravity(Gm/s^2)");
         System.out.println("--------------------------------------------------------------");
         for(int i = 0; i < name.length; i++)
         {
-            System.out.printf("%10.20s %11.1f %15.10s %10.10s%n", name[i], radius[i], mass[i], gravity[i]);
+            System.out.printf("%10.20s %11.1f %15.7s %15.3f%n", name[i], radius[i], mass[i], gravity[i]);
+        
         }
     }
-
-    //print the gravity values to text file
+      //print the gravity values to text file
     public static void printToFile(double[] gravity)throws IOException
     {
         // fill in code here
-        //PrintWriter newFile = new PrintWriter(newFile("gravities.txt");
+        PrintWriter outFile = new PrintWriter(new File("gravities.txt"));
+        for(int i = 0; i < gravity.length; i++)
+        {
+            outFile.println(gravity[i]); 
+        }
+        outFile.close();
     }
 
     public static void main(String[] args)throws IOException
@@ -61,9 +67,9 @@ public class Gravity
         double[] gravities = calcGravity(radii, masses);
 
         // Output
-        printResults(names, radii, masses, gravities);
+        printResults(names, radii, mass, gravities);
         printToFile(gravities);
 
 
     } //end main
-}//end class
+}//end class0
