@@ -17,6 +17,7 @@ public class Darts
         System.out.print("Number of attempts: ");
         return scan.nextInt();
     }
+    
     //number of trials
     public static int numberOfTrials()
     {
