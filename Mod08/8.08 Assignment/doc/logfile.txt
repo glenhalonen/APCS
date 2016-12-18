@@ -1,0 +1,43 @@
+Class documentation
+<---- javadoc command: ---->
+/usr/lib/jvm/java-7-openjdk-i386/bin/javadoc
+-author
+-version
+-nodeprecated
+-package
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+1.7
+-classpath
+/usr/share/bluej/bluejcore.jar:/usr/share/bluej/junit-4.8.2.jar:/usr/share/bluej/userlib/pi4j-gpio-extension.jar:/usr/share/bluej/userlib/pi4j-service.jar:/usr/share/bluej/userlib/pi4j-core.jar:/usr/share/bluej/userlib/pi4j-device.jar:/home/mark/APCS/Mod08/8.08 Assignment
+-d
+/home/mark/APCS/Mod08/8.08 Assignment/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+-docletpath
+/usr/share/bluej/bjdoclet.jar
+-doclet
+bluej.doclet.doclets.formats.html.HtmlDoclet
+/home/mark/APCS/Mod08/8.08 Assignment/AnnualFuelUse.java
+<---- end of javadoc command ---->
+Loading source file /home/mark/APCS/Mod08/8.08 Assignment/AnnualFuelUse.java...
+Constructing Javadoc information...
+Standard Doclet version 1.7.0_79
+Building tree for all the packages and classes...
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/AnnualFuelUse.html...
+/home/mark/APCS/Mod08/8.08 Assignment/AnnualFuelUse.java:21: warning - Tag @author cannot be used in constructor documentation.  It can only be used in the following types of documentation: overview, package, class/interface.
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/package-frame.html...
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/package-summary.html...
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/allclasses-frame.html...
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/allclasses-noframe.html...
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/index.html...
+Generating /home/mark/APCS/Mod08/8.08 Assignment/doc/stylesheet.css...
+1 warning
