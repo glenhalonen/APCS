@@ -1,8 +1,8 @@
 /**
  * @purpose: Calculate the CO2 from household waste 8.11
  *
- * @author:
- * @version:
+ * @author: Glen Halonen
+ * @version: Jan 2, 2017
  */
 import java.util.ArrayList;
 
@@ -12,7 +12,12 @@ public class CO2FromWasteTester
    {
        ArrayList<CO2FromWaste> cO2 = new ArrayList<CO2FromWaste>();
            // add households to the arraylist
-
+       cO2.add(new CO2FromWaste(12, false, false, false, false));
+       cO2.add(new CO2FromWaste(12, true, true, true, true));
+       cO2.add(new CO2FromWaste(6, true, false, true, false));
+       cO2.add(new CO2FromWaste(6, false, true, false, true));
+       cO2.add(new CO2FromWaste(3, false, true, false, false));
+       cO2.add(new CO2FromWaste(3, false, false, true, true));
        for(CO2FromWaste dataRecord : cO2)
        {
            dataRecord.calcGrossWasteEmission();

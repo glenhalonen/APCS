@@ -5,8 +5,8 @@
  * instance variables.  Private instance variables include myNumPeople, myPaper, myPlastic,
  * myGlass, myCans, myEmissions, myReduction, and myNetEmissions.
  *
- * @author:
- * @version:
+ * @author: Glen Halonen
+ * @version: Jan 2, 2017
  */
 public class CO2FromWaste
 {
@@ -39,7 +39,7 @@ public class CO2FromWaste
     */
    public void calcGrossWasteEmission()
    {
-        //******* fill in code for method here ****//
+        myEmissions = (184.0 + 25.6 + 46.6 + 165.8) * myNumPeople;
    }
 
    /**
@@ -47,19 +47,25 @@ public class CO2FromWaste
     */
    public void calcWasteReduction()
    {
-       if(myPaper)
-       {
+      if(myPaper)
+      {
            myReduction += (184.0 * myNumPeople);
-       }
-
-      //******* fill in rest of method here ****//
+      }
+       
       if(myPlastic)
-       {
+      {
            myReduction += (25.6 * myNumPeople);
-       }
-
-
-
+      }
+      
+      if(myGlass)
+      {
+          myReduction += (46.6 * myNumPeople);
+      }
+      
+      if(myCans)
+      {
+          myReduction += (165.8 * myNumPeople);
+      }
    }
 
    /**
@@ -67,7 +73,7 @@ public class CO2FromWaste
     */
    public void calcNetWasteReduction()
    {
-        //******* fill in rest of method here ****//
+        myNetEmissions = myEmissions - myReduction;
    }
 
    /**
