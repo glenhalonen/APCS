@@ -1,10 +1,14 @@
 #BlueJ class context
 comment0.params=
 comment0.target=CO2FromElectricity()
+comment0.text=\n\ Default\ constructor\ to\ create\ an\ object\ from\ the\ CO2FromElectricity\ class.\n
 comment1.params=monthlyBill
 comment1.target=double\ calcAverageBill(java.util.ArrayList)
+comment1.text=\n\ Mutator\ method\ to\ calculate\ the\ average\ montly\ bill\n\ @param\ monthlyBill\ an\ array\ of\ bills\ from\ a\ few\ months\n\ @return\ avgBill\ the\ average\ bill\ monthly\ for\ electricity\n
 comment2.params=monthlyPrice
 comment2.target=double\ calcAveragePrice(java.util.ArrayList)
+comment2.text=\n\ Mutator\ method\ to\ calculate\ the\ average\ monthly\ price\n\ @param\ montlyPrice\ an\ array\ of\ prices\ from\ a\ few\ months\n\ @return\ avgPrice\ the\ average\ price\ per\ month\ for\ electricity\n
 comment3.params=avgBill\ avgPrice
 comment3.target=double\ calcElectricityCO2(double,\ double)
+comment3.text=\n\ Mutator\ method\ to\ calulate\ the\ amount\ of\ CO2\ released\n\ @param\ avgBill\ the\ average\ monthly\ bill\n\ @param\ avgPrice\ the\ average\ monthly\ price\n\ @return\ electricityCO2\ the\ amount\ of\ CO2\ produced\ from\ electricity\n
 numComments=4

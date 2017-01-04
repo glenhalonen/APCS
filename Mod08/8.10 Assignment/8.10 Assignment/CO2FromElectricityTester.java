@@ -2,7 +2,7 @@
  * @purpose: Calculate yearly CO2 emissions from electricity 8.10
  *
  * @author: Glen Halonen
- * @version: 
+ * @version: Jan 2, 2017
  */
 import java.util.ArrayList;
 public class CO2FromElectricityTester

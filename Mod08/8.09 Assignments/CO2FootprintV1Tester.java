@@ -1,33 +1,26 @@
 
 /**
- * Write a description of class CO2FootprintV1Tester here.
+ * @purpose: Calculate CO2 emissions from car.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Glen Halonen
+ * @version Jan 2, 2017
  */
 public class CO2FootprintV1Tester
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class CO2FootprintV1Tester
-     */
-    public CO2FootprintV1Tester()
+    public static void main(String[] args)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+        //create object car
+        CO2FootprintV1 car1 = new CO2FootprintV1(1198);
+        
+        //call methods
+        car1.calcTons();
+        car1.convertTonsToPounds();
+        
+        //print results
+        System.out.println("      CO2 Emissions     ");
+        System.out.println("Gallons   Pounds    Tons");
+        System.out.println(" of gas  from gas  from gas");
+        System.out.println("***************************");
+        System.out.printf("%5.1f %10.2f %7.3f", car1.getGallons(), car1.getPounds(), car1.getTons());
     }
 }

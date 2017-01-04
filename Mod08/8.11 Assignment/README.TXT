@@ -11,4 +11,4 @@ AUTHORS: Glen Halonen
 
     The positives of this program is the abitlity to neatly print unlimited number of situations to the 
 screen with minimal lies of code. The negatives would be entering in different households. I learned how
-to utilize records for printing purposes. 
+to utilize records for printing purposes and how to use Array List. 

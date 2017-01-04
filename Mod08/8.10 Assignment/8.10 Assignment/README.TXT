@@ -14,7 +14,17 @@ negatives would be entering a new line for each number. I learned how to use met
 
          CO2FromElectricity
          
-              Methods
+         <<Instance Variables>>
+         double billSum
+         double avgBill
+         double priceSum
+         double avgPrive
+         double electricityCO2
+          
+           <<Constuctor>>   
+         CO2FromElectricity()
+         
+             <<Methods>>
         double calcAverageBill()
         double calcAveragePrice()
         double calcElectricityCO2()

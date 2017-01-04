@@ -1,5 +1,5 @@
 /**
- * @purpose: Calculate the CO2 from household waste 8.11
+ * @purpose: Calculate the CO2 from household waste.
  *
  * @author: Glen Halonen
  * @version: Jan 2, 2017
