@@ -1,6 +1,7 @@
 
 /**
- * Constructor for objects in myCO2ProductionTester. 
+ * Constructor for objects in myCO2ProductionTester. Methods calculate CO2
+ * pounds of emission from multiple sources. 
  * 
  * @author Glen Halonen
  * @version Jan 3, 2017
@@ -194,4 +195,6 @@ public class myCO2Production
     {
         return totalCO2;
     }
+    
+    
 }

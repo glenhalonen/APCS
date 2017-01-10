@@ -1,7 +1,6 @@
 #BlueJ class context
-comment0.params=gals
-comment0.target=CO2FootprintV1(double)
-comment0.text=\n\ Constructor\ for\ Objects\ of\ type\ CO2FootprintV1\n\ @param\ gals\ the\ number\ of\ gallons\ consumed\ annualy.\n
+comment0.params=gals\ input
+comment0.target=CO2FootprintV1(double,\ java.lang.String)
 comment1.params=
 comment1.target=void\ calcTons()
 comment1.text=\n\ Mutator\ method\ to\ calculate\ tons\ of\ CO2\ released\ (no\ parameters)\n

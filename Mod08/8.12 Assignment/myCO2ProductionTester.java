@@ -30,19 +30,19 @@ public class myCO2ProductionTester
             dataRecord.calcNetElecPounds();
             dataRecord.calcTotalCO2();
         }
-        
-        myCO2Production dataRecord;
-        
-        
-        
+ 
         System.out.println("|         Pounds of CO2             |      Pounds of CO2    |");
         System.out.println("|         Emmitted from             |      Reduced from     |");
         System.out.println("|   Gas    | Electricity  |  Waste  | Recycling | New Bulbs | CO2 Footprint |");   
+
+        myCO2Production dataRecord;
         //for loop to print results
         for(int index = 0; index < me.size(); index++)
         {
             dataRecord = me.get(index);
             System.out.printf("| %7.2f |   %7.2f   | %7.2f | %9.2f | %9.1f | %13.2f | \n", dataRecord.getGasPounds(), dataRecord.getElecPounds(), dataRecord.getWasteEmissions(), dataRecord.getWasteReduction(), dataRecord.getElecReduction(), dataRecord.getTotalCO2());
         }
+        
+        
     }
 }

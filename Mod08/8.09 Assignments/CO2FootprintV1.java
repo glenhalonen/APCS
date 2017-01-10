@@ -8,7 +8,17 @@
 public class CO2FootprintV1
 {
     private double myGallonsUsed, myTonsCO2, myPoundsCO2;
+    private String foo;
     
+    CO2FootprintV1( double gals, String input )
+    {
+        myGallonsUsed = gals;
+        foo = input;
+    }
+    
+    CO2FootprintV1()
+    {
+    }
     
     /**
      * Constructor for Objects of type CO2FootprintV1
@@ -17,6 +27,7 @@ public class CO2FootprintV1
     CO2FootprintV1(double gals)
     {
         myGallonsUsed = gals;
+        foo = "fee";
     }
     
     /**
