@@ -9,6 +9,7 @@ public class Catapult
 {
     static final double ROWS = 7;
     static final double COLS = 6;
+    
     /**
      * Mutator method that changes the values in catapult to distance travled from angle and intial speed.
      * @param catapult 2d array contains intial velocities
