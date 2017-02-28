@@ -14,18 +14,18 @@ public class Box extends Rectangle
 	/**
 	 * Constructor for objects of class box
 	 */
-	public Box(int l, int w, int h)
+	public Box(int length, int width, int height)
 	{
 		// call superclass
-		super(l, w);
+		super(length, width);
 	    // initialise instance variables
-		height = h;
+		this.height = height;
 	}
 
 	// return the height
 	public int getHeight()
 	{
-		return height;
+		return this.height;
 	}
 
 }

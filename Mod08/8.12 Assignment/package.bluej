@@ -2,12 +2,12 @@
 dependency1.from=myCO2ProductionTester
 dependency1.to=myCO2Production
 dependency1.type=UsesDependency
-objectbench.height=76
+objectbench.height=100
 objectbench.width=662
 package.editor.height=400
-package.editor.width=560
-package.editor.x=566
-package.editor.y=209
+package.editor.width=865
+package.editor.x=650
+package.editor.y=286
 package.numDependencies=1
 package.numTargets=2
 package.showExtends=true

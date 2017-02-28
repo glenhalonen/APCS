@@ -1,6 +1,7 @@
 
 /**
- * Write a description of class TestTerrain here.
+ * Tester class that calls on methods Forest, Mountain, and WinterMountain. Prints dimensions
+ * and properties to the screen.
  * 
  * @author Glen Halonen 
  * @version 02/16/2017

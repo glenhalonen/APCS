@@ -7,16 +7,16 @@
  */
 public class Triangle
 {
-    private double mySide1, mySide2, mySide3;
+    private double side1, side2, side3;
     
     /**
      * Constructor for triangle
      */
     public Triangle(double side1, double side2, double side3)
     {
-        mySide1 = side1;
-        mySide2 = side2;
-        mySide3 = side3;
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
     }
     
     /**
@@ -24,7 +24,7 @@ public class Triangle
      */
     public double getSide1()
     {
-        return mySide1;
+        return this.side1;
     }
     
     /**
@@ -32,7 +32,7 @@ public class Triangle
      */
     public double getSide2()
     {
-        return mySide2;
+        return this.side2;
     }
     
     /**
@@ -40,6 +40,6 @@ public class Triangle
      */
     public double getSide3()
     {
-        return mySide3;
+        return this.side3;
     }
 }

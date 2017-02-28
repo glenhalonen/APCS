@@ -2,12 +2,12 @@
 dependency1.from=AnnualFuelUseTester
 dependency1.to=AnnualFuelUse
 dependency1.type=UsesDependency
-objectbench.height=76
+objectbench.height=100
 objectbench.width=686
 package.editor.height=400
-package.editor.width=584
-package.editor.x=789
-package.editor.y=146
+package.editor.width=889
+package.editor.x=670
+package.editor.y=306
 package.numDependencies=1
 package.numTargets=2
 package.showExtends=true

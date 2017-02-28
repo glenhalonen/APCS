@@ -10,9 +10,9 @@ public class Cube extends Box
     /**
      * Constructor for Cube
      */
-    public Cube(int l)
+    public Cube(int length)
     {
-        super(l, l, l);
+        super(length, length, length);
     }
    
 }

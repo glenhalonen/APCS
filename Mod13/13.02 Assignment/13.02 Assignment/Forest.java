@@ -1,6 +1,7 @@
 
 /**
- * Write a description of class Forest here.
+ * Forest inherites from Terrain to get the dimensions but has it's own method and parameter to 
+ * return the number of trees.
  * 
  * @author Glen Halonen
  * @version 02/16/2017

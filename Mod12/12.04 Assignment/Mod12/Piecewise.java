@@ -8,7 +8,7 @@
  */
 public class Piecewise
 {
-    
+    private int x;
     /**
      * Default constructor for PiecewiseTester class.
      */
@@ -23,13 +23,14 @@ public class Piecewise
      */
     public int firstPiece(int x)
     {
+        
         if(x <= 10)
         {
             return -7;
         }
         else
         {
-            return firstPiece(x-4) + 2;
+            return firstPiece(this.x-4) + 2;
         }
     }
     

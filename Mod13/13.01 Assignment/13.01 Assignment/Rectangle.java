@@ -1,7 +1,7 @@
 /**
  * rectangle Demo.
  * 
- * ©FLVS 2007
+ * ï¿½FLVS 2007
  * @author R. Enger 
  * @version 5/5/2007
  */
@@ -14,21 +14,21 @@ public class Rectangle
 	/**
 	 * Constructor for objects of class rectangle
 	 */
-	public Rectangle(int l, int w)
+	public Rectangle(int length, int width)
 	{
 		// initialise instance variables
-		length = l;
-		width = w;
+		this.length = length;
+		this.width = width;
 	}
 
 	// return the height
 	public int getLength()
 	{
-		return length;
+		return this.length;
 	}
 	public int getWidth()
 	{
-	    return width;
+	    return this.width;
 	}
 	   
 }

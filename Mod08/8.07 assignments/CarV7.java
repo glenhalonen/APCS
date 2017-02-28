@@ -9,21 +9,21 @@ public class CarV7
 {
     //private instance variables
     
-    private double gallonsUsed1, startMiles1, endMiles1, pricePerGallon;
-    private String carType1;
+    private double gallonsUsed, startMiles, endMiles, pricePerGallon;
+    private String carType;
    
     //default constructor
     CarV7()
     {
     }
     //constructor with parameters
-    CarV7(String CT, double GU, double SM, double EM, double PG)
+    CarV7(String carType, double gallonsUsed, double startMiles, double endMiles, double pricePerGallon)
     {
-        carType1 = CT;
-        gallonsUsed1 = GU;
-        startMiles1 = SM;
-        endMiles1 = EM;
-        pricePerGallon = PG;
+        this.carType = carType;
+        this.gallonsUsed = gallonsUsed;
+        this.startMiles = startMiles;
+        this.endMiles = endMiles;
+        this.pricePerGallon = pricePerGallon;
         
     }
     
@@ -48,7 +48,7 @@ public class CarV7
     //calculate total cost
     public double totalCost(double gallonPrice, double miles)
     {
-        double cost = gallonPrice * miles;
+        double cost = this. * miles;
         return cost;
     }
     

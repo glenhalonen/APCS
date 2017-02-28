@@ -1,9 +1,10 @@
 
 /**
- * Write a description of class WinterMountain here.
+ * Inherits from Mountain to get mountains and dimensions. Contains it's own toString() to return the
+ * charactoristics to return it terrain.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Glen Halonen
+ * @version 02/19/2017
  */
 public class WinterMountain extends Mountain
 {
