@@ -1,3 +1,11 @@
+*.db
+*.gif
+*.css
+*.html
+*.ht
+*.tmp
+*.xml
+*.jpg
 *.ctxt
 *.zip
 *.class
