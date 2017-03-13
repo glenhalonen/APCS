@@ -1,13 +1,13 @@
 
 /**
- * MyScience is a subclass of Homework that contains the constructor for science.
+ * MyJava is a subclass of Homework that contains the constructor for java.
  * 
- * @author Glen Halonen 
+ * @author Glen Halonen
  * @version 03/12/17
  */
-public class MyScience extends Homework
+public class MyJava extends Homework
 {
-    public MyScience()
+    public MyJava()
     {
         super();
     }
@@ -15,7 +15,7 @@ public class MyScience extends Homework
     public void createAssignment(int p)
     {
         setPagesRead(3);
-        setTypeHomework( "Science" );
+        setTypeHomework( "Java" );
     }
     
     public String toString()

@@ -1,17 +1,17 @@
 
 /**
- * Abstract class HomeWork that delcares methods to be used by subclasses. Includes one abstract method
- * createAssignment which must be overwritten in each subclass.
+ * Homework2 is the superclass for MyScience2, MyMath2, MyJava2, and MyEnglish2. This class implements
+ * Processing.
  * 
- * @author Glen Halonen
+ * @author Glen halonen
  * @version 03/12/17
  */
-public abstract class Homework
+public abstract class Homework2 implements Processing
 {
-   private int pagesRead;
-   private String typeHomework;
+    private int pagesRead;
+    private String typeHomework;
     
-    public Homework()
+    public Homework2()
     {
         pagesRead = 0;
         typeHomework = "none";

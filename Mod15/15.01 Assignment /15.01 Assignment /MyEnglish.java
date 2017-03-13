@@ -1,21 +1,21 @@
 
 /**
- * MyScience is a subclass of Homework that contains the constructor for science.
+ * MyEnglish is a subclass of Homework that contains the constructor for english.
  * 
- * @author Glen Halonen 
+ * @author Glen Halonen
  * @version 03/12/17
  */
-public class MyScience extends Homework
+public class MyEnglish extends Homework
 {
-    public MyScience()
+    public MyEnglish()
     {
         super();
     }
     
     public void createAssignment(int p)
     {
-        setPagesRead(3);
-        setTypeHomework( "Science" );
+        setPagesRead(9);
+        setTypeHomework( "English" );
     }
     
     public String toString()

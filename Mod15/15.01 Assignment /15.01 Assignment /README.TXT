@@ -1,12 +1,9 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Homework
+PURPOSE OF PROJECT: List all types of homework along with the amount of pages needed to be read.
+VERSION or DATE: 03/12/17
+AUTHORS: Glen Halonen
+
+    I learned how to use an abstract method to define methods that will be used in subclasses. The 
+The positives is the ability to compare different objects. The negatives would be the fact that the 
+program does not interact with the user.
