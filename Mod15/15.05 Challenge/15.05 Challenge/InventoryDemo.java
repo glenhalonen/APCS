@@ -44,6 +44,11 @@ public class InventoryDemo
         {
             System.out.println(saw1.getName() + " is more expensive.");
         }
+        
+        String a = "a";
+        String b = "b";
+        int y = a.compareTo(b);
+        System.out.println(y);
     }
     
     public static void takeInventory(String p)

@@ -1,12 +1,10 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Picture
+PURPOSE OF PROJECT: To manipulate mutliple pictures.
+VERSION or DATE: 03/26/17
+AUTHORS: Glen Halonen
+
+    I learned how to display the outline of an image in black and white by determinding the color difference
+in Red, Green, and Blue. The positvies of this program is that it is interesting and can be useful for 
+cases in which the color difference may be so small that the human eye coud not detect in which with this
+program we could manipulate the specs so that we could determind the outline of an image.
